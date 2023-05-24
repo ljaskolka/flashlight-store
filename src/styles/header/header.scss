@@ -1,0 +1,60 @@
+@import "../colors/colors";
+
+.header-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  margin-left: 200px;
+}
+
+.header-links-container {
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.header-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: $white-color;
+}
+
+.header-link:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-logo {
+    margin-left: 100px;
+  }
+
+  .header-links-container {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  .header-logo {
+    margin-left: 50px;
+  }
+
+  .header-links-container {
+    margin-right: 30px;
+    width: auto;
+    display: block;
+  }
+
+  .header-link {
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+  .header-logo {
+    width: 50%;
+  }
+}

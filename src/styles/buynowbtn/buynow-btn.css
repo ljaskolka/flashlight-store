@@ -1,0 +1,20 @@
+.buy-now-btn {
+  background-color: #1d7bea;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  padding: 10px 40px;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-weight: 600;
+  box-shadow: 0 0 10px white;
+}
+.buy-now-btn:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 721px) {
+  .buy-now-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}/*# sourceMappingURL=buynow-btn.css.map */

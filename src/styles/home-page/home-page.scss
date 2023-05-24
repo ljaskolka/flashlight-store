@@ -1,0 +1,10 @@
+$homepage-background-image-path: "../../assets/images/light-background.png";
+
+.home-page {
+  height: 100vh;
+  cursor: default;
+  background-image: url($homepage-background-image-path);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

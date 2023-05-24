@@ -1,0 +1,88 @@
+$background-image-path: "../../assets/images/dark-background.png";
+
+body {
+  background-color: #161616;
+  background-image: url($background-image-path);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  cursor: none;
+  width: 100%;
+  height: 100%;
+
+  .landing-page-container {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .flashlight-cursor {
+    position: absolute;
+    mix-blend-mode: soft-light;
+    opacity: 1;
+  }
+
+  .switch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+
+    .switch-btn {
+      position: absolute;
+      margin-right: 120px;
+    }
+
+    .switch-btn:hover {
+      cursor: pointer;
+    }
+  }
+
+  .switch-description {
+    padding: 0;
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 1149px) {
+  .flashlight-cursor {
+    display: none;
+  }
+
+  .switch-container {
+    padding-top: 20%;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  body {
+    .switch-container {
+      margin-top: 40%;
+    }
+
+    .switch-description {
+      font-size: 48px;
+    }
+
+    .switch-container {
+      .switch-main {
+        width: 250px;
+      }
+
+      .switch-btn {
+        position: absolute;
+        margin-right: 110px;
+        width: 75px;
+      }
+
+      .switch-btn:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.home-page {
+  height: 100vh;
+  cursor: default;
+  background-image: url("../../assets/images/light-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=home-page.css.map */

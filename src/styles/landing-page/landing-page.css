@@ -1,0 +1,70 @@
+body {
+  background-color: #161616;
+  background-image: url("../../assets/images/dark-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  cursor: none;
+  width: 100%;
+  height: 100%;
+}
+body .landing-page-container {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+body .flashlight-cursor {
+  position: absolute;
+  mix-blend-mode: soft-light;
+  opacity: 1;
+}
+body .switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+body .switch-container .switch-btn {
+  position: absolute;
+  margin-right: 120px;
+}
+body .switch-container .switch-btn:hover {
+  cursor: pointer;
+}
+body .switch-description {
+  padding: 0;
+  margin: 40px;
+  text-align: center;
+  color: white;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1149px) {
+  .flashlight-cursor {
+    display: none;
+  }
+  .switch-container {
+    padding-top: 20%;
+  }
+}
+@media screen and (max-width: 721px) {
+  body .switch-container {
+    margin-top: 40%;
+  }
+  body .switch-description {
+    font-size: 48px;
+  }
+  body .switch-container .switch-main {
+    width: 250px;
+  }
+  body .switch-container .switch-btn {
+    position: absolute;
+    margin-right: 110px;
+    width: 75px;
+  }
+  body .switch-container .switch-btn:hover {
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=landing-page.css.map */
